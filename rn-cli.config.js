@@ -1,7 +1,7 @@
-const blacklist = require('metro/src/blacklist');
+const blacklist = require('metro-config/src/defaults/blacklist')
 
 module.exports = {
-  getBlacklistRE: function () {
-    return blacklist([/node_modules\/react-native-elements\/node_modules\/.*/]);
-  }
+  resolver: {
+    blacklistRE: blacklist([/react-native\/local-cli\/core\/__fixtures__.*/]),
+  },
 };

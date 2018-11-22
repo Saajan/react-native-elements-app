@@ -4,10 +4,6 @@ import { View, ScrollView, StyleSheet, Platform } from 'react-native';
 
 import { Text, Button, Icon, Card } from 'react-native-elements';
 
-import colors from 'HSColors';
-import socialColors from 'HSSocialColors';
-import fonts from 'HSFonts';
-
 class IconsDetail extends Component {
   ratingCompleted(rating) {
     console.log('Rating is: ' + rating);

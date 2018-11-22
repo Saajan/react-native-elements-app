@@ -23,7 +23,7 @@ import {
 
 import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
 
-import colors from 'HSColors';
+import colors from '../config/colors';
 
 const users = [
   {
